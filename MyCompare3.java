@@ -11,6 +11,7 @@ public class MyCompare3 {
 		dogs.add(new Dog("Fido", 4));
 		dogs.add(new Dog("Fido", 3));
 		dogs.add(new Dog("Alfie", 4));
+		System.out.println(new Dog("alfie,",4));
 
 		System.out.println(dogs);
 		Collections.sort(dogs, new Comparator<Animal>() {
